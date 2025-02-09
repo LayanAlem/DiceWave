@@ -1,0 +1,42 @@
+[
+    {
+        "id": 49,
+        "game_name": "Kingdom Conquest",
+        "price": 59.99,
+        "description": "A strategy board game where players vie for control of the kingdom.",
+        "image": "../images/Kingdom Conquest.png",
+        "category": "Board Games"
+    },
+    {
+        "id": 37,
+        "game_name": "Call of Duty: Black Ops 6",
+        "price": 45.00,
+        "description": "A spy action thriller set in the early 90s with a cinematic single-player campaign and multiplayer experience.",
+        "image": "../images/CallofDuty.png",
+        "category": "E Games"
+    },
+    {
+        "id": 25,
+        "game_name": "Animal Adventure",
+        "price": 9.99,
+        "description": "A fun and educational game for kids to learn about animals.",
+        "image": "../images/Animal Adventure1.png",
+        "category": "Kids Games"
+    },
+    {
+        "id": 13,
+        "game_name": "Brain Benders",
+        "price": 24.99,
+        "description": "A collection of challenging mind puzzles to test your intellect.",
+        "image": "../images/Brain Benders2.png",
+        "category": "Mind Games"
+    },
+    {
+        "id": 1,
+        "game_name": "Mystery Maze",
+        "price": 19.99,
+        "description": "Solve intricate puzzles to uncover the secrets of the maze.",
+        "image": "../images/Mystery Maze1.png",
+        "category": "Puzzles"
+    }
+]

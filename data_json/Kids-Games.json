@@ -1,0 +1,99 @@
+[
+  {
+    "id": 25,
+    "game_name": "Animal Adventure",
+    "price": 9.99,
+    "description": "A fun and educational game for kids to learn about animals.",
+    "image": "../images/Animal Adventure1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 26,
+    "game_name": "Color Splash",
+    "price": 7.99,
+    "description": "A creative game for kids to explore colors and painting.",
+    "image": "../images/Color Splash1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 27,
+    "game_name": "Shape Sorter",
+    "price": 6.99,
+    "description": "A game to help kids recognize and sort different shapes.",
+    "image": "../images/Shape Sorter1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 28,
+    "game_name": "Alphabet Adventure",
+    "price": 8.99,
+    "description": "A game to teach kids the alphabet in a fun way.",
+    "image": "../images/Alphabet Adventure1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 29,
+    "game_name": "Number Quest",
+    "price": 7.49,
+    "description": "A game to help kids learn numbers and counting.",
+    "image": "../images/Number Quest1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 30,
+    "game_name": "Memory Match Jr.",
+    "price": 6.49,
+    "description": "A memory game designed for young kids.",
+    "image": "../images/Memory Match Jr1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 31,
+    "game_name": "Puzzle Pals",
+    "price": 5.99,
+    "description": "Simple puzzles to engage kids' minds.",
+    "image": "../images/Puzzle Pals1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 32,
+    "game_name": "Storytime Adventures",
+    "price": 9.49,
+    "description": "Interactive stories for kids to enjoy.",
+    "image": "../images/Storytime Adventures1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 33,
+    "game_name": "Coloring Fun",
+    "price": 5.49,
+    "description": "A digital coloring book with various scenes.",
+    "image": "../images/Coloring Fun1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 34,
+    "game_name": "Animal Sounds",
+    "price": 4.99,
+    "description": "Learn animal sounds with fun and interactive gameplay.",
+    "image": "../images/Animal Sounds1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 35,
+    "game_name": "Rhyming Words",
+    "price": 6.99,
+    "description": "A game to help kids learn rhyming words.",
+    "image": "../images/Rhyming Words1.png",
+    "category": "Kids Games"
+  },
+  {
+    "id": 36,
+    "game_name": "Adventure Playground",
+    "price": 8.49,
+    "description": "An imaginative playground where kids can create their own adventures.",
+    "image": "../images/Adventure Playground1.png",
+    "category": "Kids Games"
+  }
+]
+  

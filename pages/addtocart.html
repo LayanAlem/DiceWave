@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopping Cart</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../icomoon/icomoon.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"   
+      media="all"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/vendor.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../images/icon.png" type="image/x-icon" />
+    <!-- script
+    ================================================== -->
+    <script src="../js/modernizr.js"></script>
+  </head>
+  <body>
+    <!-- ----------------------------------- header ------------------------------------------------ -->
+    <header id="header">
+        <div id="header-wrap">
+          <nav class="primary-nav padding-small">
+            <div class="container">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-2 col-md-2">
+                  <div class="main-logo">
+                    <a href="../index.html">
+                      <img src="../images/DiceWaveLogo.png" width="130px" alt="logo" />                      </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                  <div class="navbar">
+  
+                    <div id="main-nav" class="stellarnav d-flex justify-content-center">
+                      <ul class="menu-list">
+  
+                        <li class="menu-item has-sub">
+                          <a href="../index.html" class="item-anchor d-flex align-item-center" data-effect="Home">Home</a>
+                        </li>
+                        <li><a href="../pages/about.html" class="item-anchor" data-effect="About">About</a></li>
+                        <li class="menu-item has-sub">
+                          <a href="../pages/shop.html" class="item-anchor align-item-center" data-effect="Shop">Shop<i class="icon icon-chevron-down"></i></a>
+                          <ul class="submenu">
+                            <li><a href="../pages/shop.html" class="item-anchor">All</a></li>
+                            <li><a href="../pages/shop.html" class="item-anchor">Board Games</a></li>
+                            <li><a href="../pages/shop.html" class="item-anchor">E- Games</a></li>
+                            <li><a href="../pages/shop.html" class="item-anchor">Mind Games</a></li>
+                            <li><a href="../pages/shop.html" class="item-anchor">Kids Game</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="../pages/contact.html" class="item-anchor" data-effect="Contact">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-lg-2 col-md-">
+                  <div class="d-flex justify-content-end">
+                    <div class="col-md-4 col-sm-12 user-items">
+                      <ul
+                        class="d-flex justify-content-end list-unstyled"
+                        style="gap: 15px; margin-top: 20px"
+                      >
+                        <li>
+                          <!-- yanal section -->
+                          <div>
+                            <a href="#" id="authLink">
+                              <i class="icon icon-user"></i>
+                            </a>
+                          </div>
+                        </li>
+                        <li>
+                          <a href="../pages/addtocart.html">
+                            <i class="icon icon-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="../pages/auth/login.html" id="logoutBtnN">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    <section>
+      <div class="shopify-grid padding-large">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 cart-items" id="cart-container"></div>
+            <div class="col-lg-4">
+              <div class="cart-summary" style="margin-top: 30px">
+                <h2>Cart Summary</h2>
+                <p id="total-price">Total: $0</p>
+                <button class="btn-checkout">Check Out</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <template id="cart-item-template">
+      <div class="cart-item">
+        <img src="" alt="" class="cart-item-image" />
+        <div class="cart-item-details">
+          <h3 class="cart-item-name"></h3>
+          <p class="cart-item-price"></p>
+        </div>
+      </div>
+    </template>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="" alt="" />
+          <h2>DiceWave</h2>
+        </div>
+        <div class="footer-links">
+          <div class="company">
+            <h3>COMPANY</h3>
+            <ul>
+              <li><a href="./pages/about.html">About</a></li>
+              <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="policies">
+            <h3>POLICIES</h3>
+            <ul>
+              <li><a href="#">Community Guidelines</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-connect">
+          <h3>CONNECT</h3>
+          <div class="social-icons">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="https://discord.com/"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+          </div>
+          <div class="app-buttons">
+            <a href="https://apps.apple.com/" target="_blank">
+              <img src="../images/appStore.webp" alt=" App Store"
+            /></a>
+            <a href="https://play.google.com/store" target="_blank">
+              <img src="../images/googlePlay.webp" alt=" Google Play"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/showCart.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5cdf8a5fd1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <!-- yanal section -->
+    <script src="../js/auth/home.js"></script>
+    <script src="../js/auth/logout.js"></script>
+  </body>
+</html>

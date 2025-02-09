@@ -1,0 +1,99 @@
+[
+  {
+    "id": 37,
+    "game_name": "Call of Duty: Black Ops 6",
+    "price": 45.00,
+    "description": "A spy action thriller set in the early 90s with a cinematic single-player campaign and multiplayer experience.",
+    "image": "../images/CallofDuty.png",
+    "category": "E Games"
+  },
+  {
+    "id": 38,
+    "game_name": "FIFA 25",
+    "price": 42.00,
+    "description": "The latest installment in the FIFA series, featuring updated rosters and improved gameplay mechanics.",
+    "image": "../images/fifa25.png",
+    "category": "E Games"
+  },
+  {
+    "id": 39,
+    "game_name": "CyberQuest",
+    "price": 35.00,
+    "description": "An action-packed sci-fi adventure game set in a futuristic world.",
+    "image": "../images/CyberQuest.png",
+    "category": "E Games"
+  },
+  {
+    "id": 40,
+    "game_name": "Fantasy Arena",
+    "price": 28.00,
+    "description": "A competitive online multiplayer game with fantasy characters.",
+    "image": "../images/Fantasy Arena.png",
+    "category": "E Games"
+  },
+  {
+    "id": 41,
+    "game_name": "Mystery Maze",
+    "price": 22.00,
+    "description": "Solve intricate puzzles to uncover the secrets of the maze.",
+    "image": "../images/Mystery Mansion1.png",
+    "category": "E Games"
+  },
+  {
+    "id": 42,
+    "game_name": "Word Wizard",
+    "price": 21.00,
+    "description": "A word puzzle game to challenge your vocabulary skills.",
+    "image": "../images/Word Wizard1.png",
+    "category": "E Games"
+  },
+  {
+    "id": 43,
+    "game_name": "Legend of Zarya",
+    "price": 40.00,
+    "description": "An epic fantasy adventure game set in a magical world.",
+    "image": "../images/Legend of Zarya.png",
+    "category": "E Games"
+  },
+  {
+    "id": 44,
+    "game_name": "Alien Invasion",
+    "price": 32.00,
+    "description": "Defend Earth from alien invaders in this action-packed shooter.",
+    "image": "../images/Alien Invasion.png",
+    "category": "E Games"
+  },
+  {
+    "id": 45,
+    "game_name": "Space Odyssey",
+    "price": 37.00,
+    "description": "Explore distant galaxies and uncover their secrets.",
+    "image": "../images/Space Odyssey.png",
+    "category": "E Games"
+  },
+  {
+    "id": 46,
+    "game_name": "Racing Rivals",
+    "price": 30.00,
+    "description": "Compete in high-speed races with customizable cars.",
+    "image": "../images/Racing Rivals.png",
+    "category": "E Games"
+  },
+  {
+    "id": 47,
+    "game_name": "Mystic Quest",
+    "price": 29.00,
+    "description": "Embark on a quest to save the enchanted forest.",
+    "image": "../images/Mystic Quest.png",
+    "category": "E Games"
+  },
+  {
+    "id": 48,
+    "game_name": "Hero's Journey",
+    "price": 34.00,
+    "description": "Become the hero in this role-playing adventure.",
+    "image": "../images/Hero's Journey.png",
+    "category": "E Games"
+  }
+]
+  

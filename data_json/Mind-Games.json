@@ -1,0 +1,99 @@
+[
+  {
+    "id": 13,
+    "game_name": "Brain Benders",
+    "price": 24.99,
+    "description": "A collection of challenging mind puzzles to test your intellect.",
+    "image": "../images/Brain Benders2.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 14,
+    "game_name": "Logic Master",
+    "price": 29.99,
+    "description": "A game that enhances logical thinking with various challenges.",
+    "image": "../images/Logic Master1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 15,
+    "game_name": "Memory Match",
+    "price": 19.99,
+    "description": "Improve your memory with fun matching puzzles.",
+    "image": "../images/Memory Match Jr1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 16,
+    "game_name": "Pattern Recognition",
+    "price": 22.00,
+    "description": "Identify and solve pattern-based puzzles.",
+    "image": "../images/Pattern Recognition1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 17,
+    "game_name": "Cognitive Challenges",
+    "price": 27.00,
+    "description": "A series of games designed to boost cognitive skills.",
+    "image": "../images/Cognitive Challenges1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 18,
+    "game_name": "Puzzle Mania",
+    "price": 25.00,
+    "description": "A variety of puzzles that challenge different aspects of your mind.",
+    "image": "../images/Puzzle Mania1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 19,
+    "game_name": "Mental Gym",
+    "price": 23.00,
+    "description": "Exercise your brain with a range of mental challenges.",
+    "image": "../images/Mental Gym1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 20,
+    "game_name": "IQ Test",
+    "price": 20.00,
+    "description": "Test and improve your IQ with a series of puzzles and quizzes.",
+    "image": "../images/IQ Test1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 21,
+    "game_name": "Riddle Solver",
+    "price": 18.00,
+    "description": "Solve riddles to progress through the game.",
+    "image": "../images/Riddle Solver2.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 22,
+    "game_name": "Strategy Thinker",
+    "price": 26.00,
+    "description": "Engage in strategic thinking with complex puzzles.",
+    "image": "../images/Strategy Thinker1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 23,
+    "game_name": "Mind Maze",
+    "price": 21.00,
+    "description": "Navigate through mind-bending mazes.",
+    "image": "../images/Mind Maze1.png",
+    "category": "Mind Games"
+  },
+  {
+    "id": 24,
+    "game_name": "Problem Solver",
+    "price": 19.00,
+    "description": "Solve various problems and puzzles to improve problem-solving skills.",
+    "image": "../images/Problem Solver2.png",
+    "category": "Mind Games"
+  }
+]
+  

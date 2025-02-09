@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "game_name": "Mystery Maze",
+    "price": 19.99,
+    "description": "Solve intricate puzzles to uncover the secrets of the maze.",
+    "image": "../images/Mystery Maze1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 2,
+    "game_name": "Word Wizard",
+    "price": 14.99,
+    "description": "A word puzzle game to challenge your vocabulary skills.",
+    "image": "../images/Word Wizard1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 3,
+    "game_name": "Enigma",
+    "price": 18.99,
+    "description": "A challenging puzzle game with a variety of brain teasers.",
+    "image": "../images/Enigma1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 4,
+    "game_name": "Puzzle Quest",
+    "price": 12.99,
+    "description": "Match and solve puzzles to complete the quest.",
+    "image": "../images/Puzzle Quest1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 5,
+    "game_name": "Maze Runner",
+    "price": 9.99,
+    "description": "Navigate through complex mazes to reach the goal.",
+    "image": "../images/Maze Runner1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 6,
+    "game_name": "Sudoku Master",
+    "price": 11.99,
+    "description": "Test your logic skills with challenging Sudoku puzzles.",
+    "image": "../images/Sudoku Master1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 7,
+    "game_name": "Crossword Challenge",
+    "price": 16.99,
+    "description": "Solve crosswords of varying difficulty levels.",
+    "image": "../images/Crossword Challenge1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 8,
+    "game_name": "Logic Puzzles",
+    "price": 10.99,
+    "description": "A collection of logic puzzles to keep your mind sharp.",
+    "image": "../images/Logic Puzzles1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 9,
+    "game_name": "Jigsaw Frenzy",
+    "price": 13.99,
+    "description": "Complete beautiful jigsaw puzzles of various scenes.",
+    "image": "../images/Jigsaw Frenzy1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 10,
+    "game_name": "Pattern Finder",
+    "price": 15.99,
+    "description": "Identify patterns and solve related puzzles.",
+    "image": "../images/Pattern Finder1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 11,
+    "game_name": "Picture Puzzle",
+    "price": 8.99,
+    "description": "Reassemble scrambled images to complete the picture.",
+    "image": "../images/Picture Puzzle1.png",
+    "category": "Puzzles"
+  },
+  {
+    "id": 12,
+    "game_name": "Riddle Master",
+    "price": 7.99,
+    "description": "Solve challenging riddles to progress through the game.",
+    "image": "../images/Riddle Master1.png",
+    "category": "Puzzles"
+  }
+]

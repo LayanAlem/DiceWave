@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiceWave- Sign Up</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/vendor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/auth/css/material-design-iconic-font.min.css">
+    <link rel="icon" href="../../images/icon.png" type="image/x-icon">
+    
+
+    <link rel="stylesheet" href="../../css/auth/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inner">
+            <div class="image-holder">
+                <img src="../../images/background.webp" alt="">
+                <br><br>
+                <hr>
+                <br>
+                <p>Do you have an account? <a href="./login.html" style="text-decoration: none; color: #007bff; font-weight: bold;">login</a></p>
+            </div>
+            <form onsubmit="saveUser()">
+                <h3>Sign Up</h3>
+                <div class="form-group">
+                    <input type="text" id="fName" placeholder="First Name" class="form-control">
+                    <input type="text" id="lName" placeholder="Last Name" class="form-control">
+                </div>
+                <div class="form-wrapper">
+                    <input type="email" id="email" placeholder="Email Address" class="form-control">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input type="number" id="phoneNumber" placeholder="phoneNumber" class="form-control">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input type="text" id="address" placeholder="address" class="form-control">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input type="password" id="password" placeholder="Password" class="form-control">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="form-wrapper">
+                    <input type="password" id="rePassword" placeholder="Confirm Password" class="form-control">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit">Sign Up
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5cdf8a5fd1.js" crossorigin="anonymous"></script>
+    <script src="../../js/auth/signup.js"></script>
+</body>
+</html>
